@@ -257,8 +257,8 @@ import type { HoraryChartData } from 'astro-charts-br'
 
 const horaryChart: HoraryChartData = {
   question: 'Essa situação vai avançar?',
-  askedAtLabel: '04/07/2026, 20:44',
-  locationLabel: 'Curitiba, PR',
+  askedAtLabel: '12/03/2026, 19:18',
+  locationLabel: 'Cidade Fictícia, BR',
   houseSystemLabel: 'Regiomontanus',
   angles: { ascendant: 104.2, midheaven: 12.6 },
   houses: [
@@ -381,14 +381,14 @@ const greenwichApparentSiderealTimeHours = 14.1687401324
 
 const chart: AstrocartographyChartData = {
   title: 'Astrocartografia natal',
-  subtitle: 'Linhas planetárias angulares ao redor do mundo',
-  momentUtc: '1988-09-29T13:36:00.000Z',
-  localDateTimeLabel: '29/09/1988, 10:36',
+  subtitle: 'Exemplo fictício de linhas planetárias angulares',
+  momentUtc: '2001-05-17T17:28:00.000Z',
+  localDateTimeLabel: '17/05/2001, 14:28',
   timezoneLabel: 'UTC−3',
   birthplace: {
-    name: 'Curitiba, PR',
-    latitude: -25.43,
-    longitude: -49.270833
+    name: 'Cidade Fictícia, BR',
+    latitude: -15.7312,
+    longitude: -47.9123
   },
   lines: buildAstrocartographyLines(positions, greenwichApparentSiderealTimeHours)
 }
