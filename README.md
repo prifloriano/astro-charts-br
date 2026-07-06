@@ -1,5 +1,12 @@
 # astro-charts-br
 
+[![npm version](https://img.shields.io/npm/v/astro-charts-br?color=8b5cf6&label=npm)](https://www.npmjs.com/package/astro-charts-br)
+[![npm downloads](https://img.shields.io/npm/dm/astro-charts-br?color=14b8a6)](https://www.npmjs.com/package/astro-charts-br)
+[![license](https://img.shields.io/npm/l/astro-charts-br?color=f59e0b)](LICENSE)
+[![CI](https://github.com/prifloriano/astro-charts-br/actions/workflows/ci.yml/badge.svg)](https://github.com/prifloriano/astro-charts-br/actions/workflows/ci.yml)
+[![Vue 3](https://img.shields.io/badge/Vue-3.5+-42b883?logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-ready-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
 Biblioteca Vue 3 de componentes visuais para astrologia, astrocartografia e
 sistemas simbólicos em português.
 
