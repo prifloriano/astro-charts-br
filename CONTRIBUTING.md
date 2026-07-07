@@ -10,7 +10,7 @@ Obrigada pelo interesse em contribuir com o `astro-charts-br`.
 ## Preparação
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/prifloriano/astro-charts-br.git
 cd astro-charts-br
 npm install
 npm run dev
