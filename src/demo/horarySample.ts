@@ -3,8 +3,8 @@ import type { HoraryChartData } from '../core/astrology/types'
 export const horarySample: HoraryChartData = {
   question: 'Essa situação vai avançar?',
   topicLabel: 'Exemplo genérico',
-  askedAtLabel: '04/07/2026, 20:44',
-  locationLabel: 'Curitiba, PR',
+  askedAtLabel: '12/03/2026, 19:18',
+  locationLabel: 'Cidade Fictícia, BR',
   houseSystemLabel: 'Regiomontanus',
 
   angles: {

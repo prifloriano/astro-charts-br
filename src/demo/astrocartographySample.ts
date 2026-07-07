@@ -1,11 +1,9 @@
 /**
- * Demo calculada para 29/09/1988, 10:36, Curitiba/PR.
+ * Demo visual com metadados fictícios de data, hora e local.
  *
- * Em 29/09/1988 Curitiba estava em UTC-3, portanto o instante universal
- * correspondente é 1988-09-29T13:36:00Z.
- *
- * As posições equatoriais foram geradas com Astronomy Engine e permanecem
- * apenas na demo. O pacote publicado não depende do motor de efemérides.
+ * As posições equatoriais permanecem apenas como fixture para renderização.
+ * Não use estes dados para interpretação astrológica real. O pacote publicado
+ * não depende de motor de efemérides em runtime.
  */
 import { buildAstrocartographyLines } from '../core/astrocartography/lines'
 import type {
@@ -88,14 +86,14 @@ export const astrocartographyEquatorialPositions: AstrocartographyEquatorialPosi
 
 export const astrocartographySample: AstrocartographyChartData = {
   title: 'Astrocartografia natal',
-  subtitle: 'Linhas planetárias angulares ao redor do mundo',
-  momentUtc: '1988-09-29T13:36:00.000Z',
-  localDateTimeLabel: '29/09/1988, 10:36',
-  timezoneLabel: 'Curitiba · UTC−3',
+  subtitle: 'Exemplo fictício de linhas planetárias angulares',
+  momentUtc: '2001-05-17T17:28:00.000Z',
+  localDateTimeLabel: '17/05/2001, 14:28',
+  timezoneLabel: 'Cidade Fictícia · UTC−3',
   birthplace: {
-    name: 'Curitiba, PR',
-    latitude: -25.43,
-    longitude: -49.270833
+    name: 'Cidade Fictícia, BR',
+    latitude: -15.7312,
+    longitude: -47.9123
   },
   lines: buildAstrocartographyLines(astrocartographyEquatorialPositions, 14.1687401324)
 }
