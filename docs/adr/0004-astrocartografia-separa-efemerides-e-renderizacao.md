@@ -34,7 +34,6 @@ bundle de produção.
 
 ## Consequências
 
-
 - O componente funciona sem rede e sem imagens proprietárias.
 - O consumidor pode usar qualquer serviço ou motor de efemérides.
 - Não há correção automática de fuso histórico no runtime da biblioteca.
